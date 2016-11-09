@@ -7,12 +7,12 @@ image: bilisim-sektoru.jpeg
 description: Geleceğimizi şekillendiren yeni bir iş tanımı
 ---
 
+Söze ilk olarak bilişim sektörünün 90'larda internetin yaygınlaşmasıyla birlikte yükselişe geçtiğini belirterek başlasam iyi olur. Aynı zamanda sınırları zorlayabileceğiniz nadir alanlardan biri olma özelliği de taşıyor. Kısacası yapabileceklerinizin sınırı yok.
+
 <center>
 	<amp-img width="600" height="416" layout="responsive" src="/assets/images/bilisim-sektoru.jpeg"></amp-img>
 </center>
 
-
-Söze ilk olarak bilişim sektörünün 90'larda internetin yaygınlaşmasıyla birlikte yükselişe geçtiğini belirterek başlasam iyi olur. Aynı zamanda sınırları zorlayabileceğiniz nadir alanlardan biri olma özelliği de taşıyor. Kısacası yapabileceklerinizin sınırı yok.
 Bilişim sektörünün iyi yanları etkili ve ses getirecek cinsten olmasına rağmen kötü yanları da hayatınızı zorlaştıracak cinsten şeyler.
 
 İyi yanlarından ilki beyin gücünü kullanarak gerçekleştirilen birçok iş tanımında olduğu gibi yaptığınız işe karşılık aldığınız ücretin hayat kalitenizi yükseklerde tutacak kadar iyi olması. Daha da önemlisi açık kaynak projeleri ile ortaya çıkan kolektif bir bilinç ve eğer bir Türk firmasında çalışıyorsak teknolojik olarak ülkemizi ileri taşımanın verdiği haz. Buna ek olarak yazılım geliştirme süreçlerinin beynimizi aktif olarak kullanmamızı gerektirmesi insanların kendine karşı olan özgüveni artırır. Bu liste kişiden kişiye farklı hisler oluşturabilir ki bir şeyleri tasarlamanın ve üretmenin bir parçası olmak beni her zaman iyi hissettirmiştir buna bağlı olarak bakış açım bu konuda daha olumlu.

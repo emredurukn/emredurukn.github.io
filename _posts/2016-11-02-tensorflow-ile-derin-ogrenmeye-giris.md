@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorFlow ile Derin Öğrenme'ye Giriş
+title: TensorFlow ile Derin Öğrenmeye Giriş
 published: true
 date: 2016-11-02
 tags:
@@ -11,12 +11,11 @@ description: TensorFlow kurulum adımları ve kısa bir giriş
 ---
 
 
+TensorFlow, Google'ın açık kaynak kodlu makina öğrenmesi kütüphanesi ve özellikle derin öğrenme için kullanılıyor.
+
 <center>
 	<amp-img width="640" height="360" layout="responsive" src="/assets/images/tensorflow.jpg"></amp-img>
 </center>
-
-
-TensorFlow, Google'ın açık kaynak kodlu makina öğrenmesi kütüphanesi ve özellikle derin öğrenme için kullanılıyor.
 
 
 ### Derin öğrenme nedir?

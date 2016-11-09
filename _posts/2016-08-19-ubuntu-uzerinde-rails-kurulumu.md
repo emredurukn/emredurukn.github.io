@@ -8,14 +8,11 @@ image: ruby-on-rails.jpg
 description: Rails'in Ubuntu 16.04 üzerinde kurulum adımları
 ---
 
+Ruby on Rails, Ruby dili ile yazılmış açık kaynak kodlu bir web framework'tür. Ruby ise nesneye yönelik bir programlama dilidir. Bu yazımda Rails'in Ubuntu 16.04 üzerinde kurulum adımlarını anlatmaya çalışacağım.
+
 <center>
 	<amp-img width="1080" height="329" layout="responsive" src="/assets/images/ruby-on-rails.jpg"></amp-img>
 </center>
-
-
-Ruby on Rails, Ruby dili ile yazılmış açık kaynak kodlu bir web framework'tür. Ruby ise nesneye yönelik bir programlama dilidir.
-
-Bu yazımda Rails'in Ubuntu 16.04 üzerinde kurulum adımlarını anlatmaya çalışacağım.
 
 
 ### 1) Ruby Kurulumu

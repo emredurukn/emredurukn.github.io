@@ -9,12 +9,11 @@ description: GitHub Pages ile Jekyll kullanarak adım adım blog kurulumu
 ---
 
 
+GitHub Pages, GitHub tarafından sağlanan projeleriniz için web sayfası oluşturabileceğiniz ve projenizi tanıtabileceğiniz bir hosting hizmetidir. Bu statik site hosting hizmeti ücretsizdir ve default olarak Jekyll desteği vardır.
+
 <center>
 	<amp-img width="500" height="300" layout="responsive" src="/assets/images/github.pages.jpg"></amp-img>
 </center>
-
-
-GitHub Pages, GitHub tarafından sağlanan projeleriniz için web sayfası oluşturabileceğiniz ve projenizi tanıtabileceğiniz bir hosting hizmetidir. Bu statik site hosting hizmeti ücretsizdir ve default olarak Jekyll desteği vardır.
 
 
 Jekyll ise Ruby ile yazılmış bir statik site oluşturma aracıdır.

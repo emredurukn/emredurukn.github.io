@@ -10,6 +10,8 @@ image: google-privacy.jpg
 description: Google uygulamalarındaki kişisel gizlilik ihlalleri
 ---
 
+Bu yazımda Google'ın kişisel gizlilik ihlallerine değineceğim. 
+
 <center>
 	<amp-img width="500" height="300" layout="responsive" src="/assets/images/google-privacy.jpg"></amp-img>
 </center>
