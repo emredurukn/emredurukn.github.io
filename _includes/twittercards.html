@@ -6,9 +6,11 @@
 {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}">
   <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="article">
 {% else %}
   <meta name="twitter:title" content="{{ site.title }}">
   <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:type" content="website">
 {% endif %}
 {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
@@ -30,6 +32,6 @@
 {% endif %}
 {% if page.tags %}
   {% for tag in page.tags %}
-  <meta property="article:tag" content="{{ tag }}">
+  <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
 {% endif %}

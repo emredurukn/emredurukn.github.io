@@ -3,9 +3,7 @@ layout: post
 title: TensorFlow ile Derin Öğrenmeye Giriş
 published: true
 date: 2016-11-02
-tags:
-  - tensorflow
-  - deep learning
+tags: tensorflow deep learning
 image: tensorflow.jpg
 description: TensorFlow kurulum adımları ve kısa bir giriş
 ---
