@@ -12,7 +12,7 @@ description: >
   kişisel blog
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://emredurukan.com" # the base hostname & protocol for your site
+url: "https://emredurukn.github.io" # the base hostname & protocol for your site
 paginate:	7 # The number of posts to show per page on your homepage
 
 name: 'Emre Durukan'

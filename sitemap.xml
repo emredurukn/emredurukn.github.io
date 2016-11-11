@@ -8,44 +8,42 @@
 
 <url>
   <loc>https://emredurukn.github.io/</loc>
-  <lastmod>2016-11-06T12:14:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://emredurukn.github.io/about/</loc>
-  <lastmod>2016-11-06T12:14:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://emredurukn.github.io/2016/11/09/tensorflow-ile-mnist-ornegi.html</loc>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emredurukn.github.io/2016/11/02/tensorflow-ile-derin-ogrenmeye-giris.html</loc>
-  <lastmod>2016-11-06T12:14:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emredurukn.github.io/2016/09/01/kisisel-gizlilik-ve-google.html</loc>
-  <lastmod>2016-11-06T12:14:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emredurukn.github.io/2016/08/25/github-pages-ile-blog-olusturma.html</loc>
-  <lastmod>2016-11-06T12:14:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emredurukn.github.io/2016/08/19/ubuntu-uzerinde-rails-kurulumu.html</loc>
-  <lastmod>2016-11-06T12:14:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emredurukn.github.io/2016/08/13/bilisim-sektoru.html</loc>
-  <lastmod>2016-11-06T12:14:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-11-09T20:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>
