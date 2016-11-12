@@ -22,12 +22,14 @@ layout: default
 
       {% if page.comments != false %}
         <div class="post--comments">
+          <!--
             <amp-iframe width=600 height=140
               layout="responsive"
               sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
               resizable
               src="https://emredurukn.github.io/disqus-amp.html?url={{ page.url | prepend: site.baseurl | prepend: site.url | cgi_escape }}&disqus_name=https%3A%2F%2F{{ site.disqus_name }}.disqus.com%2Fembed.js">
-            </amp-iframe>          
+            </amp-iframe>
+          -->    
         </div>
       {% endif %}
 
