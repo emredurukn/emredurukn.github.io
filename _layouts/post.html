@@ -9,27 +9,31 @@ layout: default
 
     <section class="post-content">
       <a name="topofpage"></a>
-      {{content}}
+        {{content}}
       <br>
-      <div class="post--comments">
-        {% if page.comments != false %}
-          <amp-iframe width=600 height=140
-            layout="responsive"
-            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-            resizable
-            src="https://emredurukn.github.io/disqus-amp">
-          </amp-iframe>  
-        {% endif %}
-      </div>
+      
+      <center>
+        <amp-social-share type="twitter" width="60" height="44"></amp-social-share>
+        <amp-social-share type="gplus" width="60" height="44"></amp-social-share>
+        <amp-social-share type="linkedin" width="60" height="44"></amp-social-share>
+        <amp-social-share type="pinterest" width="60" height="44"></amp-social-share>
+        <amp-social-share type="email" width="60" height="44"></amp-social-share>
+      </center>
+
+      {% if page.comments != false %}
+        <div class="post--comments">
+            <amp-iframe width=600 height=140
+              layout="responsive"
+              sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+              resizable
+              src="https://emredurukn.github.io/disqus-amp.html?url={{ page.url | prepend: site.baseurl | prepend: site.url | cgi_escape }}&disqus_name=https%3A%2F%2F{{ site.disqus_name }}.disqus.com%2Fembed.js">
+            </amp-iframe>          
+        </div>
+      {% endif %}
+
     </section>
-    <footer class="post-footer">
-      <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
-          Share on
-          {% include icon-twitter.html %}
-        </a>
-      </section>
-    </footer>
+
+
     <div class="bottom-teaser cf">
       <div class="isLeft">
         <h5 class="index-headline featured"><span>Written by</span></h5>
