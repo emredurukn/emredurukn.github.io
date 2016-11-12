@@ -13,7 +13,12 @@ layout: default
       <br>
       <div class="post--comments">
         {% if page.comments != false %}
-          
+          <amp-iframe width=600 height=140
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            resizable
+            src="https://emredurukn.github.io/disqus-amp#hash">
+          </amp-iframe>  
         {% endif %}
       </div>
     </section>
@@ -39,6 +44,7 @@ layout: default
                 {% include icon-github.html username=site.github_username %}
               {% endif %}
             </span>
+            <p>
             <span>
               {% if site.twitter_username %}
                 {% include icon-twitter.html username=site.twitter_username %}
@@ -55,6 +61,7 @@ layout: default
         <footer class="site-footer">
           <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
           <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+          <p>
           <div class="inner">
             <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{site.name}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
           </div>

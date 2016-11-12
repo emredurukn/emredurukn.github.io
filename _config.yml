@@ -16,8 +16,7 @@ url: "https://emredurukn.github.io" # the base hostname & protocol for your site
 paginate:	7 # The number of posts to show per page on your homepage
 
 name: 'Emre Durukan'
-bio: >
-  Teknoloji Meraklısı
+bio: Teknoloji Meraklısı
 author_image: "/assets/images/author.jpg"
 twitter_username: emredurukn
 github_username:  emredurukn
