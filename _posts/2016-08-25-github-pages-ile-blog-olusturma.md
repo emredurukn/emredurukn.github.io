@@ -40,7 +40,7 @@ Ben bu seferlik [şu adreste](https://github.com/kronik3r/daktilo) bulunan temay
 İndirdiğimiz zip dosyasını herhangi bir dizine çıkartalım.
 
 
-Jekyll, Ruby ile yazıldığı için ilk olarak [bu yazımda](http://emredurukan.com/2016/08/19/ubuntu-uzerinde-rails-kurulumu/) açıkladığım şekilde Ruby kurulumunu gerçekleştirelim ve sonrasında Jekyll'i kuralım. 
+Jekyll, Ruby ile yazıldığı için ilk olarak [bu yazımda](https://emredurukn.github.io/2016/08/19/ubuntu-uzerinde-rails-kurulumu.html) açıkladığım şekilde Ruby kurulumunu gerçekleştirelim ve sonrasında Jekyll'i kuralım. 
 
 ```bash
 $ sudo gem install jekyll
