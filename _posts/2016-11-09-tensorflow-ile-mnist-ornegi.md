@@ -19,7 +19,7 @@ Bu yazımda bir modeli rakamların olduğu resimlerden birine bakarak resimde ha
 
 ### MNIST nedir?
 
-MNIST, görüntüyü işlemek ve anlamlandırmak için kullanılan bir veri setidir. Bu veri seti el yazısıyla yazılmış rakamların resimlerinden oluşur.
+[MNIST](https://en.wikipedia.org/wiki/MNIST_database), görüntüyü işlemek ve anlamlandırmak için kullanılan bir veri setidir. Bu veri seti el yazısıyla yazılmış rakamların resimlerinden oluşur.
 
 <center>
 	<amp-img width="640" height="360" layout="responsive" src="/assets/images/mnist-examples.png"></amp-img>

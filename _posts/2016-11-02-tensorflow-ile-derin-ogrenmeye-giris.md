@@ -9,7 +9,7 @@ description: TensorFlow kurulum adımları ve kısa bir giriş
 ---
 
 
-TensorFlow, Google'ın açık kaynak kodlu makina öğrenmesi kütüphanesi ve özellikle derin öğrenme için kullanılıyor.
+[TensorFlow](https://www.tensorflow.org/), Google'ın açık kaynak kodlu makina öğrenmesi kütüphanesi ve özellikle derin öğrenme için kullanılıyor.
 
 <center>
 	<amp-img width="640" height="360" layout="responsive" src="/assets/images/tensorflow.jpg"></amp-img>
@@ -39,7 +39,7 @@ $ sudo apt-get install python3-pip python3-dev -y
 Daha sonra CPU versiyonunu kurmak için gerekli kodu girelim.
 
 ```bash
-$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.11.0rc2-cp35-cp35m-linux_x86_64.whl
+$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.0-cp35-cp35m-linux_x86_64.whl
 ```
 
 Son olarak TensorFlow kurulumunu başlatalım.
