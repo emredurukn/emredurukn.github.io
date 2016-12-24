@@ -2,7 +2,7 @@
 layout: post
 title: Unity ile 2D Oyun Geliştirmeye Giriş
 published: false
-date: 2016-11-09
+date: 2016-12-30
 tags:
   - unity
   - game development
