@@ -17,22 +17,25 @@ description: Rails'in Ubuntu 16.04 üzerinde kurulum adımları
 
 ### 1) Ruby Kurulumu
 
-Ruby kurulumuna başlamadan önce paket arşivini güncelleyelim.
+
+Ruby kurulumu için gerekli bağımlılıkları kuralım. Ardından Ruby'nin son sürümünü kurabilmek için ppa ekleyelim.
+
+```bash
+$ sudo apt-get install software-properties-common -y
+
+$ sudo add-apt-repository ppa:brightbox/ruby-ng-experimental
+```
+
+Paket arşivini güncelleyelim.
 
 ```bash
 $ sudo apt-get update
 ```
 
-Ruby kurulumu için gerekli bağımlılıkları kuralım.
-
-```bash
-$ sudo apt-get install curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev -y
-```
-
 Ruby kurulumunu gerçekleştirelim.
 
 ```bash
-$ sudo apt-get install ruby ruby-dev -y
+$ sudo apt-get install ruby2.4 ruby2.4-dev -y
 ```
 
 Ruby versiyonunu kontrol edelim.
@@ -72,7 +75,7 @@ $ git --version
 NodeJS kurulumunu gerçekleştirelim.
 
 ```bash
-$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+$ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 
 $ sudo apt-get install nodejs -y
 
