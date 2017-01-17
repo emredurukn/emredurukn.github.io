@@ -50,7 +50,7 @@ Son olarak hangi versiyonu kullanacağınıza göre TensorFlow kurulumunu başla
 CPU Version
 
 ```bash
-$ sudo pip3 install tensorflow-gpu -y
+$ sudo pip3 install tensorflow -y
 ```
 
 GPU Version
@@ -76,7 +76,7 @@ TensorFlow'da bazı işlemlerde kullanılmak üzeri sabit olarak **constant** ku
 
 ### Şimdi de TensorFlow ile basit işlemler gerçekleştirelim.
 
-```python
+~~~ python
 import tensorflow as tf
 
 x1 = tf.constant(5)
@@ -116,7 +116,7 @@ with tf.Session() as sess:
     print(sess.run(product)) # 1x2 * 2x1 = 1x1 Matrix
     
     print(sess.run(vector)) 
-```
+~~~
 
  İlk olarak **x1** ve **x2** adında iki sabit tanımlayıp ardından toplama, çıkarma ve çarpma işlemleri için TensorFlow'da tanımlı olan fonksiyonları (**add**, **sub**, **mul**) kullandık.
 

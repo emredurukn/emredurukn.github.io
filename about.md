@@ -11,6 +11,7 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 
 ### İletişim
 
+</br>
 
 - [Gmail](mailto:durukan.emre93@gmail.com)
 - [Twitter](https://twitter.com/emredurukn)
