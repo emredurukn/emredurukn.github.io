@@ -36,29 +36,40 @@ TensorFlow dahil birçok makine öğrenmesi kütüphanesi ile geliştirilen proj
 $ sudo apt-get install python3-pip python3-dev -y
 ```
 
-Daha sonra CPU versiyonunu kurmak için gerekli kodu girelim.
+Daha sonra pip için güncelleme yapalım.
 
 ```bash
-$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.0-cp35-cp35m-linux_x86_64.whl
+$ sudo pip3 install --upgrade pip
 ```
 
-Son olarak TensorFlow kurulumunu başlatalım.
+Son olarak hangi versiyonu kullanacağınıza göre TensorFlow kurulumunu başlatalım.
+
+> Eğer harici bir Nvidia ekran kartınız varsa GPU versiyonunu yoksa CPU versiyonunu tercih ediniz.
+
+
+CPU Version
 
 ```bash
-$ sudo pip3 install --upgrade $TF_BINARY_URL
+$ sudo pip3 install tensorflow-gpu -y
+```
+
+GPU Version
+
+```bash
+$ sudo pip3 install tensorflow-gpu -y
 ```
 
 
 ### Hello world ile TensorFlow'a bir giriş yapalım.
 
-```python
+~~~ python
 import tensorflow as tf
 
 hello = tf.constant('Hello World')
 
 with tf.Session() as sess:
   print(sess.run(hello)) 
-```
+~~~
 
 TensorFlow'da bazı işlemlerde kullanılmak üzeri sabit olarak **constant** kullanılıyor. Çıktının gösterilmesi aşamasında ise **Session** yapısı kullanılıyor. 
 
