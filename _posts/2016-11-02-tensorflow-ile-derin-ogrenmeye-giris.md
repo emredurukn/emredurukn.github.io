@@ -44,21 +44,64 @@ $ sudo pip3 install --upgrade pip
 
 Son olarak hangi versiyonu kullanacağınıza göre TensorFlow kurulumunu başlatalım.
 
-> Eğer harici bir Nvidia ekran kartınız varsa GPU versiyonunu yoksa CPU versiyonunu tercih ediniz.
+> Eğer harici bir Nvidia ekran kartınız varsa GPU versiyonunu yoksa CPU versiyonunu tercih ediniz. Çünkü GPU versiyonu CPU versiyonuna kıyasla çok daha hızlıdır. Derin öğrenmede daha iyi sonuçlar almak için çok büyük veri setleri kullanıldığı için bu noktada performans çok önemlidir.
 
 
-CPU Version
+Harici ekran kartımız yok veya yeterli güçte değilse TensorFlow'un CPU versiyonunu kuralım.
 
 ```bash
 $ sudo pip3 install tensorflow -y
 ```
 
-GPU Version
+GPU'ların CPU'nun yapacağı işleri yapması gözle görülür derecede hız artışı sağlar. Bu desteği Nvidia CUDA ismini verdiği GPU üzerinde çalışmasını sağlayan geliştirme araçları kümesi (Toolkit) sayesinde gerçekleştirir. CPU üzerinde gerçeklemesi zor olan büyük işlemlerde CUDA işlemi daha küçük parçalara ayırıp paralel olarak yaptığı için büyük avantaj sağlar. 
+
+CUDA konusunda daha fazla bilgiyi [şurdan](http://www.nvidia.com.tr/object/cuda-parallel-computing-tr.html) edinebilirsiniz.
+
+GPU'nuzun CUDA desteğini [şurdan](https://developer.nvidia.com/cuda-gpus) kontrol edebilirsiniz. TensorFlow'u CUDA desteği ile çalıştırabilmek için 3.0 ve üzeri bir Compute Capability değerine sahip bir ekran kartına sahip olmanız gerekmektedir.
+
+CUDA kurulumuna geçmeden önce ekran kartınızın sürücüsünü (driver) kurmalısınız. Bu işlemi PPA ile yapabilirsiniz.
+
+```bash
+sudo add-apt-repository ppa:graphics-drivers/ppa -y
+sudo apt-get update
+```
+Bu işlemden sonra Ubuntu'daki Additional Drivers kısmından sürücünüzü kolaylıkla kurabilirsiniz.
+
+CUDA Toolkit 8.0'ı Ubuntu 16.04 sistemimize kurmak için ilk olarak [şurdan](https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb) debian paketini (1.8 GB) indirmeliyiz. Daha sonra aşağıdaki şekilde kurulumumuzu gerçekleştirelim.
+
+```bash
+sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+sudo apt-get update
+sudo apt-get install cuda
+```
+
+CUDA kurulumunun son aşaması olarak PATH sistem değişkenini tanımlayalım.
+
+```bash
+export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+```
+
+cuDNN adında bir kütüphane daha mevcut. cuDNN kısaca CUDA'nın derin öğrenmeye göre optimize edilmiş bir versiyonudur. Çok katmanlı yapay sinir ağlarında büyük bir performans artışı sağlar. cuDNN'ı kullanabilmek için [şurdan](https://developer.nvidia.com/accelerated-computing-developer) nvidia geliştirici hesabı oluşturmanız gerekiyor. Ardından cuDNN'ı [şurdan](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v5.1/prod_20161219/8.0/libcudnn5-dev_5.1.10-1%2Bcuda8.0_ppc64el-deb) indirebilirsiniz. İndirdiğimiz debian paketini GDebi ile kurabilirsiniz.
+
+Opsiyonel olarak CUDA profilleri için kullanılan aracı şu şekilde kurabilirsiniz.
+
+```bash
+sudo apt-get install libcupti-dev -y
+```
+
+Gerekli kurulumları bitirdikten sonra son olarak TensorFlow'un GPU versiyonunu kuralım.
 
 ```bash
 $ sudo pip3 install tensorflow-gpu -y
 ```
 
+Yeni bir sürüm çıkığında kurduğumuz versiyonu son sürüme güncellemek için şu komutları kullanabiliriz;
+
+```bash
+sudo pip3 install --upgrade tensorflow
+
+sudo pip3 install --upgrade tensorflow-gpu
+```
 
 ### Hello world ile TensorFlow'a bir giriş yapalım.
 
