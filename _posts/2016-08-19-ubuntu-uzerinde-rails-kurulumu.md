@@ -23,7 +23,7 @@ Ruby kurulumu için gerekli bağımlılıkları kuralım. Ardından Ruby'nin son
 ```bash
 $ sudo apt-get install software-properties-common -y
 
-$ sudo add-apt-repository ppa:brightbox/ruby-ng-experimental
+$ sudo add-apt-repository ppa:brightbox/ruby-ng
 ```
 
 Paket arşivini güncelleyelim.
