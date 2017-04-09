@@ -19,10 +19,10 @@ Bu yazımda bir modeli rakamların olduğu resimlerden birine bakarak resimde ha
 
 ### MNIST nedir?
 
-[MNIST](https://en.wikipedia.org/wiki/MNIST_database), görüntüyü işlemek ve anlamlandırmak için kullanılan bir veri setidir. Bu veri seti el yazısıyla yazılmış rakamların resimlerinden oluşur.
+<a href="https://en.wikipedia.org/wiki/MNIST_database" target="_blank">MNIST</a>, görüntüyü işlemek ve anlamlandırmak için kullanılan bir veri setidir. Bu veri seti el yazısıyla yazılmış rakamların resimlerinden oluşur.
 
 <center>
-	<amp-img width="640" height="360" layout="responsive" src="/assets/images/mnist-examples.png"></amp-img>
+	<amp-img width="640" height="360" alt="MNIST" layout="responsive" src="/assets/images/mnist-examples.png"></amp-img>
 </center>
 
 İlk olarak TensorFlow'u ekleyelim. Ardından input_data sınıfı ile MNIST veri setini ekleyelim. 
@@ -54,11 +54,11 @@ b = tf.Variable(tf.zeros([10]))			# Bias
 y = tf.nn.softmax(tf.matmul(x, W) + b)  # Softmax(Logistic Classifier)
 ```
 
-**Cost** modelin istenen sonuca ne kadar uzak olduğunu gösterir. Modelin Cost değerinin belirlenmesi için **Cross-entropy** adında bir fonksiyon kullanacağız. Cross-entropy birçok alanda kullanılan çok önemli bir kavram merak edenler [bu siteye](http://colah.github.io/posts/2015-09-Visual-Information/) göz atabilir.
+**Cost** modelin istenen sonuca ne kadar uzak olduğunu gösterir. Modelin Cost değerinin belirlenmesi için **Cross-entropy** adında bir fonksiyon kullanacağız. Cross-entropy birçok alanda kullanılan çok önemli bir kavram merak edenler <a href="http://colah.github.io/posts/2015-09-Visual-Information/" target="_blank">bu siteye</a> göz atabilir.
 
 Bir giriş değişkeni (**placeholder**) tanımladık ve Cross-entropy fonksiyonunu bu değişkene uyguladık.
 
-Eğitim aşamasında daha iyi bir model ortaya çıkarmak için daha küçük hata payı elde etmeye çalışırız. Bu nedenle Cross-entropy fonksiyonundan elde ettiğimiz değeri optimize etmek için [Gradient Descent algoritmasını](https://en.wikipedia.org/wiki/Gradient_descent) kullanan **GradientDescentOptimizer** fonksiyonunu learning rate parametresini 0.5 vererek kullandık.
+Eğitim aşamasında daha iyi bir model ortaya çıkarmak için daha küçük hata payı elde etmeye çalışırız. Bu nedenle Cross-entropy fonksiyonundan elde ettiğimiz değeri optimize etmek için <a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank">Gradient Descent algoritmasını</a> kullanan **GradientDescentOptimizer** fonksiyonunu learning rate parametresini 0.5 vererek kullandık.
 
 ```python
 y_ = tf.placeholder(tf.float32, [None, 10])
