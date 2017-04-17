@@ -16,4 +16,4 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. <a href="http://www.ktu.edu.tr/bilg
 
 <br>
 
-> Bu site <a href="https://jekyllrb.com/" target="_blank">Jeykll</a> (statik site oluşturma aracı) ile hazırlandı. Hosting olarak GitHub'ın statik site hosting hizmeti olan <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> kullanmaktadır.
+> "Bilgi güçtür. Ancak her güç gibi, bilgiyi de sadece kendisi için saklamak isteyenler var." <br> - Aaron Swartz
