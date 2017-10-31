@@ -21,7 +21,7 @@ description: Rails'in Ubuntu 16.04 üzerinde kurulum adımları
 Ruby kurulumu için gerekli bağımlılıkları kuralım. Ardından Ruby'nin son sürümünü kurabilmek için ppa ekleyelim.
 
 ```bash
-$ sudo apt-get install software-properties-common -y
+$ sudo apt-get install zlib1g-dev curl software-properties-common -y
 
 $ sudo add-apt-repository ppa:brightbox/ruby-ng
 ```
