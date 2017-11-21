@@ -104,3 +104,5 @@ Rails versiyonunu kontrol edelim.
 ```bash
 $ rails -v
 ```
+
+Artık Rails ile uygulama geliştirmeye hazırız.
