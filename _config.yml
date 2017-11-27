@@ -24,7 +24,7 @@ twitter_username: emredurukn
 github_username:  emredurukn
 
 # Build settings
-markdown: kramdown
+markdown: markdown
 
 kramdown:
   parse_block_html: true
