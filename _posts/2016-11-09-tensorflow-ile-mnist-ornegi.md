@@ -7,14 +7,14 @@ tags:
   - tensorflow
   - deep learning
 image: tensorflow.jpg
-description: TensorFlow ile örnek uygulamalar
+description: TensorFlow ile Mnist örnek uygulaması
 ---
 
 
 Bu yazıya başlamadan önce [TensorFlow ile Derin Öğrenmeye Giriş](https://emredurukn.github.io/2016/11/02/tensorflow-ile-derin-ogrenmeye-giris.html) adlı yazıma göz atarsanız bu yazıyı anlamanız daha kolay olacaktır.
 
 
-Bu yazımda bir modeli rakamların olduğu resimlerden birine bakarak resimde hangi rakamın olduğunu tahmin edebilmesi için eğiticez. Sonrasında ise ne oranda doğru tahminde bulunduğunu test edicez. Bu giriş seviyesi bir model olucak bu yüzden çok yüksek doğruluk oranlarına ulaşamayacak ama işin temelini anlamak için çok iyi bir örnektir aynı zamanda. Modeli eğitmek için MNIST adında bir veri setini kullanacağız.
+Bu yazımda bir modeli rakamların olduğu resimlerden birine bakarak resimde hangi rakamın olduğunu tahmin edebilmesi için eğiteceğiz. Sonrasında ise ne oranda doğru tahminde bulunduğunu test edeceğiz. Bu giriş seviyesi bir model olucak bu yüzden çok yüksek doğruluk oranlarına ulaşamayacak ama işin temelini anlamak için çok iyi bir örnektir aynı zamanda. Modeli eğitmek için MNIST adında bir veri setini kullanacağız.
 
 
 ### MNIST nedir?
