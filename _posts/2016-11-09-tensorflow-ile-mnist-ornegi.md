@@ -6,12 +6,13 @@ date: 2016-11-09
 tags:
   - tensorflow
   - deep learning
+  - mnist
 image: tensorflow.jpg
 description: TensorFlow ile Mnist örnek uygulaması
 ---
 
 
-Bu yazıya başlamadan önce [TensorFlow ile Derin Öğrenmeye Giriş](https://emredurukn.github.io/2016/11/02/tensorflow-ile-derin-ogrenmeye-giris.html) adlı yazıma göz atarsanız bu yazıyı anlamanız daha kolay olacaktır.
+Bu yazıya başlamadan önce [TensorFlow ile Derin Öğrenmeye Giriş](https://emredurukn.github.io/2016/11/02/tensorflow-ile-derin-ogrenmeye-giris.html){:target="_blank"} adlı yazıma göz atarsanız bu yazıyı anlamanız daha kolay olacaktır.
 
 
 Bu yazımda bir modeli rakamların olduğu resimlerden birine bakarak resimde hangi rakamın olduğunu tahmin edebilmesi için eğiteceğiz. Sonrasında ise ne oranda doğru tahminde bulunduğunu test edeceğiz. Bu giriş seviyesi bir model olucak bu yüzden çok yüksek doğruluk oranlarına ulaşamayacak ama işin temelini anlamak için çok iyi bir örnektir aynı zamanda. Modeli eğitmek için MNIST adında bir veri setini kullanacağız.
@@ -19,7 +20,7 @@ Bu yazımda bir modeli rakamların olduğu resimlerden birine bakarak resimde ha
 
 ### MNIST nedir?
 
-<a href="https://en.wikipedia.org/wiki/MNIST_database" target="_blank">MNIST</a>, görüntüyü işlemek ve anlamlandırmak için kullanılan bir veri setidir. Bu veri seti el yazısıyla yazılmış rakamların resimlerinden oluşur.
+[MNIST](https://en.wikipedia.org/wiki/MNIST_database){:target="_blank"}, görüntüyü işlemek ve anlamlandırmak için kullanılan bir veri setidir. Bu veri seti el yazısıyla yazılmış rakamların resimlerinden oluşur.
 
 <center>
 	<amp-img width="640" height="360" alt="MNIST" layout="responsive" src="/assets/images/mnist-examples.png"></amp-img>
@@ -54,11 +55,11 @@ b = tf.Variable(tf.zeros([10]))			# Bias
 y = tf.nn.softmax(tf.matmul(x, W) + b)  # Softmax(Logistic Classifier)
 ```
 
-**Cost** modelin istenen sonuca ne kadar uzak olduğunu gösterir. Modelin Cost değerinin belirlenmesi için **Cross-entropy** adında bir fonksiyon kullanacağız. Cross-entropy birçok alanda kullanılan çok önemli bir kavram merak edenler <a href="http://colah.github.io/posts/2015-09-Visual-Information/" target="_blank">bu siteye</a> göz atabilir.
+**Cost** modelin istenen sonuca ne kadar uzak olduğunu gösterir. Modelin Cost değerinin belirlenmesi için **Cross-entropy** adında bir fonksiyon kullanacağız. Cross-entropy birçok alanda kullanılan çok önemli bir kavram merak edenler [bu siteye](http://colah.github.io/posts/2015-09-Visual-Information/){:target="_blank"} göz atabilir.
 
 Bir giriş değişkeni (**placeholder**) tanımladık ve Cross-entropy fonksiyonunu bu değişkene uyguladık.
 
-Eğitim aşamasında daha iyi bir model ortaya çıkarmak için daha küçük hata payı elde etmeye çalışırız. Bu nedenle Cross-entropy fonksiyonundan elde ettiğimiz değeri optimize etmek için <a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank">Gradient Descent algoritmasını</a> kullanan **GradientDescentOptimizer** fonksiyonunu learning rate parametresini 0.5 vererek kullandık.
+Eğitim aşamasında daha iyi bir model ortaya çıkarmak için daha küçük hata payı elde etmeye çalışırız. Bu nedenle Cross-entropy fonksiyonundan elde ettiğimiz değeri optimize etmek için [Gradient Descent algoritmasını](https://en.wikipedia.org/wiki/Gradient_descent){:target="_blank"} kullanan **GradientDescentOptimizer** fonksiyonunu learning rate parametresini 0.5 vererek kullandık.
 
 ```python
 y_ = tf.placeholder(tf.float32, [None, 10])

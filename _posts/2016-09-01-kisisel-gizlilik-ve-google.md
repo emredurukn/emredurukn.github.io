@@ -23,11 +23,11 @@ Günümüzde interneti her alanda aktif olarak kullanıyoruz ve internet üzerin
 
 TensorFlow, Google'ın 9 Kasım 2015'de yayınladığı açık kaynak kodlu makina öğrenmesi kütüphanesi.
 
-Google'ın TensorFlow açık kaynak yapma sebebi hakkında şöyle <a href="https://www.crowdflower.com/why-did-google-open-source-their-core-machine-learning-algorithms" target="_blank">bir yazı</a> var. Bu yazıda Google'ın TensorFlow'u açık kaynak yapmasının asıl nedenini verilerimize ulaşarak algoritmayı daha verimli ve güçlü hale getirmek istemesi olduğu dile getiriliyor.
+Google'ın TensorFlow açık kaynak yapma sebebi hakkında şöyle [bir yazı](https://www.crowdflower.com/why-did-google-open-source-their-core-machine-learning-algorithms){:target="_blank"} var. Bu yazıda Google'ın TensorFlow'u açık kaynak yapmasının asıl nedenini verilerimize ulaşarak algoritmayı daha verimli ve güçlü hale getirmek istemesi olduğu dile getiriliyor.
 
 Makina öğrenmesi alanında çok büyük veri setleri ile modellere eğitim işlemleri uygulandığında doğruluk oranının arttığı bilinen bir gerçek.
 
-Bunun yanında Google'ın bir diğer hizmeti olan Google Photos hakkında da şöyle <a href="http://www.theverge.com/2015/10/20/9576713/google-photos-100-million-users" target="_blank">bir yazı</a> var.
+Bunun yanında Google'ın bir diğer hizmeti olan Google Photos hakkında da şöyle [bir yazı](http://www.theverge.com/2015/10/20/9576713/google-photos-100-million-users){:target="_blank"} var.
 
 Google ilk olarak kullanıcılara Google Photos uygulaması ile sınırsız fotoğraf saklama alanı sağladı. Kullanıcı sayısı ve sisteme yüklenen fotoğraf sayısı o kadar arttı ki ilk beş ayda 100 milyon kullanıcı sayısını aştı. Daha sonra ise PlaNet adındaki projesi için milyonlarca kullanıcının fotoğraflarını kullandı. Bu olay ilk bahsettiğim haberi doğrular nitelikte ve son derece endişe verici.
 

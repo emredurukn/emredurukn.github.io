@@ -3,7 +3,9 @@ layout: post
 title: "Ubuntu üzerinde Rails kurulumu"
 published: true
 date: 2016-08-19
-tags : [rails, ubuntu]
+tags : 
+ - rails
+ - ubuntu
 image: ruby-on-rails.jpg
 description: Rails'in Ubuntu 16.04 üzerinde kurulum adımları
 ---

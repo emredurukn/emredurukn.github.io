@@ -3,20 +3,22 @@ layout: post
 published: true
 title: "GitHub Pages ile blog oluşturma"
 date: 2016-08-25
-tags: [github-pages, jekyll]
+tags: 
+ - github pages
+ - jekyll
 image: github.pages.jpg
 description: GitHub Pages ile Jekyll kullanarak adım adım blog kurulumu
 ---
 
 
-[GitHub Pages](https://pages.github.com/), GitHub tarafından sağlanan projeleriniz için web sayfası oluşturabileceğiniz ve projenizi tanıtabileceğiniz bir hosting hizmetidir. Bu statik site hosting hizmeti ücretsizdir ve default olarak Jekyll desteği vardır.
+[GitHub Pages](https://pages.github.com/){:target="_blank"}, GitHub tarafından sağlanan projeleriniz için web sayfası oluşturabileceğiniz ve projenizi tanıtabileceğiniz bir hosting hizmetidir. Bu statik site hosting hizmeti ücretsizdir ve default olarak Jekyll desteği vardır.
 
 <center>
 	<amp-img width="500" height="300" alt="GitHub Pages" layout="responsive" src="/assets/images/github.pages.jpg"></amp-img>
 </center>
 
 
-[Jekyll](https://jekyllrb.com/) ise Ruby ile yazılmış bir statik site oluşturma aracıdır.
+[Jekyll](https://jekyllrb.com/){:target="_blank"} ise Ruby ile yazılmış bir statik site oluşturma aracıdır.
 
 Bu yazımda Ubuntu 16.04 üzerinde GitHub Pages ile Jekyll kullanarak blog açmayı anlatmaya çalışacağım.
 
@@ -28,9 +30,9 @@ Bu yazımda Ubuntu 16.04 üzerinde GitHub Pages ile Jekyll kullanarak blog açma
 </center>
 
 
-Şimdi [şu adresten](http://jekyllthemes.org/) bir tema seçelim. Temaların sayfalarındaki Homepage bağlantısı temanın bulunduğu deponun (repository) linkini vermektedir.
+Şimdi [şu adresten](http://jekyllthemes.org/){:target="_blank"} bir tema seçelim. Temaların sayfalarındaki Homepage bağlantısı temanın bulunduğu deponun (repository) linkini vermektedir.
 
-Ben bu seferlik [şu adreste](https://github.com/kronik3r/daktilo) bulunan temayı seçtim ama siz farklı temalara aynı işlemi uygulayabilirsiniz. Temayı aşağıda gösterilen alandan Download ZIP'e tıklayarak indirelim.
+Ben bu seferlik [şu adreste](https://github.com/kronik3r/daktilo){:target="_blank"} bulunan temayı seçtim ama siz farklı temalara aynı işlemi uygulayabilirsiniz. Temayı aşağıda gösterilen alandan Download ZIP'e tıklayarak indirelim.
 
 <center>
 	<amp-img width="1138" height="575" layout="responsive" src="/assets/images/download-repository.png"></amp-img>
@@ -40,7 +42,7 @@ Ben bu seferlik [şu adreste](https://github.com/kronik3r/daktilo) bulunan temay
 İndirdiğimiz zip dosyasını herhangi bir dizine çıkartalım.
 
 
-Jekyll, Ruby ile yazıldığı için ilk olarak [bu yazımda](https://emredurukn.github.io/2016/08/19/ubuntu-uzerinde-rails-kurulumu.html) açıkladığım şekilde Ruby kurulumunu gerçekleştirelim ve sonrasında Jekyll'i kuralım. 
+Jekyll, Ruby ile yazıldığı için ilk olarak [bu yazımda](https://emredurukn.github.io/2016/08/19/ubuntu-uzerinde-rails-kurulumu.html){:target="_blank"} açıkladığım şekilde Ruby kurulumunu gerçekleştirelim ve sonrasında Jekyll'i kuralım. 
 
 ```bash
 $ sudo gem install jekyll

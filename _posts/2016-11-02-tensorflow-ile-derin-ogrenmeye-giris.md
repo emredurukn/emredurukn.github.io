@@ -3,13 +3,15 @@ layout: post
 title: TensorFlow ile Derin Öğrenmeye Giriş
 published: true
 date: 2016-11-02
-tags: tensorflow deep learning
+tags: 
+ - tensorflow
+ - deep learning
 image: tensorflow.jpg
 description: TensorFlow kurulum adımları ve kısa bir giriş
 ---
 
 
-<a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>, Google'ın açık kaynak kodlu makina öğrenmesi kütüphanesi ve özellikle derin öğrenme için kullanılıyor.
+[TensorFlow](https://www.tensorflow.org/){:target="_blank"}, Google'ın açık kaynak kodlu makina öğrenmesi kütüphanesi ve özellikle derin öğrenme için kullanılıyor.
 
 <center>
 	<amp-img width="640" height="360" alt="TensorFlow" layout="responsive" src="/assets/images/tensorflow.jpg"></amp-img>
@@ -22,7 +24,7 @@ Derin öğrenme, sinir ağlarına dayanıyor. Kısacası, bu ağlara büyük mik
 
 Sözlü kelimeler verirseniz, ne dediğinizi ayırt etmeyi öğrenebilirler. Eski filmlerden biraz diyalog verirseniz, bir sohbet sürdürmeyi öğrenebilirler. (Kusursuz bir sohbet değil ama yine de oldukça iyi bir sohbet.)
 
-Derin öğrenme konusunda daha fazla bilgi için <a href="http://www.derinogrenme.com/2015/07/21/derin-ogrenme-deep-learning-nedir/" target="_blank">bu siteye</a> bakabilirsiniz.
+Derin öğrenme konusunda daha fazla bilgi için [bu siteye](http://www.derinogrenme.com/2015/07/21/derin-ogrenme-deep-learning-nedir/){:target="_blank"} bakabilirsiniz.
 
 
 Bu yazımda Ubuntu 16.04 üzerinde TensorFlow'a kısa bir başlangıç yapmaya çalışacağım.
@@ -55,9 +57,9 @@ $ sudo pip3 install tensorflow -y
 
 GPU'ların CPU'nun yapacağı işleri yapması gözle görülür derecede hız artışı sağlar. Bu desteği Nvidia CUDA ismini verdiği GPU üzerinde çalışmasını sağlayan geliştirme araçları kümesi (Toolkit) sayesinde gerçekleştirir. CPU üzerinde gerçeklemesi zor olan büyük işlemlerde CUDA işlemi daha küçük parçalara ayırıp paralel olarak yaptığı için büyük avantaj sağlar. 
 
-CUDA konusunda daha fazla bilgiyi <a href="http://www.nvidia.com.tr/object/cuda-parallel-computing-tr.html" target="_blank">şurdan</a> edinebilirsiniz.
+CUDA konusunda daha fazla bilgiyi [şuradan](http://www.nvidia.com.tr/object/cuda-parallel-computing-tr.html){:target="_blank"} edinebilirsiniz.
 
-GPU'nuzun CUDA desteğini <a href="https://developer.nvidia.com/cuda-gpus" target="_blank">şurdan</a> kontrol edebilirsiniz. TensorFlow'u CUDA desteği ile çalıştırabilmek için 3.0 ve üzeri bir Compute Capability değerine sahip bir ekran kartına sahip olmanız gerekmektedir.
+GPU'nuzun CUDA desteğini [şuradan](https://developer.nvidia.com/cuda-gpus){:target="_blank"} kontrol edebilirsiniz. TensorFlow'u CUDA desteği ile çalıştırabilmek için 3.0 ve üzeri bir Compute Capability değerine sahip bir ekran kartına sahip olmanız gerekmektedir.
 
 CUDA kurulumuna geçmeden önce ekran kartınızın sürücüsünü (driver) kurmalısınız. Bu işlemi PPA ile yapabilirsiniz.
 
@@ -67,7 +69,7 @@ sudo apt-get update
 ```
 Bu işlemden sonra Ubuntu'daki Additional Drivers kısmından sürücünüzü kolaylıkla kurabilirsiniz.
 
-CUDA Toolkit 8.0'ı Ubuntu 16.04 sistemimize kurmak için ilk olarak <a href="https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb" target="_blank">şurdan</a> debian paketini (1.8 GB) indirmeliyiz. Daha sonra aşağıdaki şekilde kurulumumuzu gerçekleştirelim.
+CUDA Toolkit 8.0'ı Ubuntu 16.04 sistemimize kurmak için ilk olarak [şuradan](https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb){:target="_blank"} debian paketini (1.8 GB) indirmeliyiz. Daha sonra aşağıdaki şekilde kurulumumuzu gerçekleştirelim.
 
 ```bash
 sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
@@ -81,7 +83,7 @@ CUDA kurulumunun son aşaması olarak PATH sistem değişkenini tanımlayalım.
 export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
 ```
 
-cuDNN adında bir kütüphane daha mevcut. cuDNN kısaca CUDA'nın derin öğrenmeye göre optimize edilmiş bir versiyonudur. Çok katmanlı yapay sinir ağlarında büyük bir performans artışı sağlar. cuDNN'ı kullanabilmek için [şurdan](https://developer.nvidia.com/accelerated-computing-developer) nvidia geliştirici hesabı oluşturmanız gerekiyor. Ardından cuDNN'ı [şurdan](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v5.1/prod_20161219/8.0/libcudnn5-dev_5.1.10-1%2Bcuda8.0_ppc64el-deb) indirebilirsiniz. İndirdiğimiz debian paketini GDebi ile kurabilirsiniz.
+cuDNN adında bir kütüphane daha mevcut. cuDNN kısaca CUDA'nın derin öğrenmeye göre optimize edilmiş bir versiyonudur. Çok katmanlı yapay sinir ağlarında büyük bir performans artışı sağlar. cuDNN'ı kullanabilmek için [şuradan](https://developer.nvidia.com/accelerated-computing-developer){:target="_blank"} Nvidia geliştirici hesabı oluşturmanız gerekiyor. Ardından cuDNN'ı [şuradan](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v5.1/prod_20161219/8.0/libcudnn5-dev_5.1.10-1%2Bcuda8.0_ppc64el-deb){:target="_blank"} indirebilirsiniz. İndirdiğimiz debian paketini GDebi ile kurabilirsiniz.
 
 Opsiyonel olarak CUDA profilleri için kullanılan aracı şu şekilde kurabilirsiniz.
 
