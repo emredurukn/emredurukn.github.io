@@ -168,3 +168,7 @@ with tf.Session() as sess:
  Daha sonra matris çarpımı için **matmul** fonksiyonunu, doğrusal aralıklı bir vektör dizisi oluşturmak için de **linspace** fonksiyonunu kullandık.
 
  Son olarak bu işlemlerin sonuçlarını atadığımız değişkenleri **Session** içerisinde **print** fonksiyonuyla ekrana yazdırdık.
+
+Bir blog yazısının daha sonuna geldik [TensorFlow ile MNIST Örneği](https://emredurukn.github.io/2016/11/09/tensorflow-ile-mnist-ornegi.html){:target="_blank"} adlı diğer blog yazıma da göz atabilirsiniz.
+
+ <br>
