@@ -52,7 +52,7 @@ Son olarak hangi versiyonu kullanacağınıza göre TensorFlow kurulumunu başla
 Harici ekran kartımız yok veya yeterli güçte değilse TensorFlow'un CPU versiyonunu kuralım.
 
 ```bash
-$ sudo pip3 install tensorflow -y
+$ sudo pip3 install tensorflow
 ```
 
 GPU'ların CPU'nun yapacağı işleri yapması gözle görülür derecede hız artışı sağlar. Bu desteği Nvidia CUDA ismini verdiği GPU üzerinde çalışmasını sağlayan geliştirme araçları kümesi (Toolkit) sayesinde gerçekleştirir. CPU üzerinde gerçeklemesi zor olan büyük işlemlerde CUDA işlemi daha küçük parçalara ayırıp paralel olarak yaptığı için büyük avantaj sağlar. 
@@ -94,7 +94,7 @@ sudo apt-get install libcupti-dev -y
 Gerekli kurulumları bitirdikten sonra son olarak TensorFlow'un GPU versiyonunu kuralım.
 
 ```bash
-$ sudo pip3 install tensorflow-gpu -y
+$ sudo pip3 install tensorflow-gpu
 ```
 
 Yeni bir sürüm çıkığında kurduğumuz versiyonu son sürüme güncellemek için şu komutları kullanabiliriz;
