@@ -11,7 +11,12 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 
 ### Projeler
 
-2014 yazında Java ile MySQL ile ufak bir proje geliştirdim. 2015 yazında [Unity](https://unity3d.com/){:target="_blank"} oyun motoru ile bir süre ilgilendim ve ufak birkaç 2D mobil oyun geliştirdim. Ruby on Rails ile ufak bir [not alma uygulması](https://github.com/emredurukn/ufak-notlar){:target="_blank"} geliştirdim. Son zamanlarda ise Deep Learning ile ilgileniyorum. 
+#### [tensorflow-examples](https://github.com/emredurukn/tensorflow-examples)
+[TensorFlow](https://www.tensorflow.org/)'u öğrenirken çalıştığım örnek kodlarımı topladığım repository.
+
+
+#### [shell-scripts](https://github.com/emredurukn/shell-scripts)
+Ubuntu 16.04 üzerinde [Ruby on Rails](http://rubyonrails.org/) ve [Django](https://www.djangoproject.com/) kurulumunu kolaylaştırmak ve günlük kullanım için kullandığım shell script'leri topladığım repository.
 
 
 ### İletişim
