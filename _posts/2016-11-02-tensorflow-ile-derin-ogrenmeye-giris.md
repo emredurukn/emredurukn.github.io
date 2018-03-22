@@ -32,28 +32,24 @@ Bu yazımda Ubuntu 16.04 üzerinde TensorFlow'a kısa bir başlangıç yapmaya �
 TensorFlow dahil birçok makine öğrenmesi kütüphanesi ile geliştirilen projelerde genelde Python tercih ediliyor. Neden Python diye sorarsak hızlı geliştirme olanağı ve topluluk desteği diyebiliriz. 
 
 
-İlk olarak Python kurulumunu gerçekleştirelim.
+İlk olarak Python kurulumunu gerçekleştirelim ve sonrasında pip için güncelleme yapalım. 
 
-```bash
-$ sudo apt-get install python3-pip python3-dev -y
-```
-
-Daha sonra pip için güncelleme yapalım.
-
-```bash
-$ sudo pip3 install --upgrade pip
-```
+<amp-gist data-gistid="c62d153874a4485b331155f6083f0457"
+  layout="fixed-height"
+  height="250">
+</amp-gist>
 
 Son olarak hangi versiyonu kullanacağınıza göre TensorFlow kurulumunu başlatalım.
 
 > Eğer harici bir Nvidia ekran kartınız varsa GPU versiyonunu yoksa CPU versiyonunu tercih ediniz. Çünkü GPU versiyonu CPU versiyonuna kıyasla çok daha hızlıdır. Derin öğrenmede daha iyi sonuçlar almak için çok büyük veri setleri kullanıldığı için bu noktada performans çok önemlidir.
 
 
-Harici ekran kartımız yok veya yeterli güçte değilse TensorFlow'un CPU versiyonunu kuralım.
+Harici ekran kartımız yok veya yeterli güçte değilse TensorFlow'un CPU versiyonunu kuralım. Yeni bir sürüm çıkığında kurduğunuz sürümü pip ile son sürüme güncelleyebilirsiniz.
 
-```bash
-$ sudo pip3 install tensorflow
-```
+<amp-gist data-gistid="8de2c2d52f3651667b99d5246f86f894"
+  layout="fixed-height"
+  height="300">
+</amp-gist>
 
 GPU'ların CPU'nun yapacağı işleri yapması gözle görülür derecede hız artışı sağlar. Bu desteği Nvidia CUDA ismini verdiği GPU üzerinde çalışmasını sağlayan geliştirme araçları kümesi (Toolkit) sayesinde gerçekleştirir. CPU üzerinde gerçeklemesi zor olan büyük işlemlerde CUDA işlemi daha küçük parçalara ayırıp paralel olarak yaptığı için büyük avantaj sağlar. 
 
@@ -63,105 +59,53 @@ GPU'nuzun CUDA desteğini [şuradan](https://developer.nvidia.com/cuda-gpus){:ta
 
 CUDA kurulumuna geçmeden önce ekran kartınızın sürücüsünü (driver) kurmalısınız. Bu işlemi PPA ile yapabilirsiniz.
 
-```bash
-sudo add-apt-repository ppa:graphics-drivers/ppa -y
-sudo apt-get update
-```
+<amp-gist data-gistid="3167aa7ca4e70304ac537e2df20bf6fc"
+  layout="fixed-height"
+  height="250">
+</amp-gist>
+
 Bu işlemden sonra Ubuntu'daki Additional Drivers kısmından sürücünüzü kolaylıkla kurabilirsiniz.
 
 CUDA Toolkit 8.0'ı Ubuntu 16.04 sistemimize kurmak için ilk olarak [şuradan](https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb){:target="_blank"} debian paketini (1.8 GB) indirmeliyiz. Daha sonra aşağıdaki şekilde kurulumumuzu gerçekleştirelim.
 
-```bash
-sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
-sudo apt-get update
-sudo apt-get install cuda
-```
+<amp-gist data-gistid="c7ac5fed702a8ffeb148a5ee9e1f6068"
+  layout="fixed-height"
+  height="300">
+</amp-gist>
 
 CUDA kurulumunun son aşaması olarak PATH sistem değişkenini tanımlayalım.
 
-```bash
-export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
-```
+<amp-gist data-gistid="55ad975380000914f1dd6d67421b5462"
+  layout="fixed-height"
+  height="150">
+</amp-gist>
 
-cuDNN adında bir kütüphane daha mevcut. cuDNN kısaca CUDA'nın derin öğrenmeye göre optimize edilmiş bir versiyonudur. Çok katmanlı yapay sinir ağlarında büyük bir performans artışı sağlar. cuDNN'ı kullanabilmek için [şuradan](https://developer.nvidia.com/accelerated-computing-developer){:target="_blank"} Nvidia geliştirici hesabı oluşturmanız gerekiyor. Ardından cuDNN'ı [şuradan](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v5.1/prod_20161219/8.0/libcudnn5-dev_5.1.10-1%2Bcuda8.0_ppc64el-deb){:target="_blank"} indirebilirsiniz. İndirdiğimiz debian paketini GDebi ile kurabilirsiniz.
+[cuDNN](https://developer.nvidia.com/cudnn){:target="_blank"} adında bir kütüphane daha mevcut. cuDNN kısaca CUDA'nın derin öğrenmeye göre optimize edilmiş bir versiyonudur. Çok katmanlı yapay sinir ağlarında büyük bir performans artışı sağlar. cuDNN'ı kullanabilmek için [şuradan](https://developer.nvidia.com/accelerated-computing-developer){:target="_blank"} Nvidia geliştirici hesabı oluşturmanız gerekiyor. Ardından cuDNN'ı [şuradan](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v5.1/prod_20161219/8.0/libcudnn5-dev_5.1.10-1%2Bcuda8.0_ppc64el-deb){:target="_blank"} indirebilirsiniz. İndirdiğimiz debian paketini GDebi ile kurabilirsiniz.
 
-Opsiyonel olarak CUDA profilleri için kullanılan aracı şu şekilde kurabilirsiniz.
+Gerekli kurulumları bitirdikten sonra son olarak TensorFlow'un GPU versiyonunu kuralım. Yeni bir sürüm çıkığında kurduğunuz sürümü pip ile son sürüme güncelleyebilirsiniz.
 
-```bash
-sudo apt-get install libcupti-dev -y
-```
+<amp-gist data-gistid="3d3218b55c87de4e73ee8516641384b7"
+  layout="fixed-height"
+  height="250">
+</amp-gist>
 
-Gerekli kurulumları bitirdikten sonra son olarak TensorFlow'un GPU versiyonunu kuralım.
 
-```bash
-$ sudo pip3 install tensorflow-gpu
-```
+### Hello world ile TensorFlow'a bir giriş yapalım
 
-Yeni bir sürüm çıkığında kurduğumuz versiyonu son sürüme güncellemek için şu komutları kullanabiliriz;
-
-```bash
-sudo pip3 install --upgrade tensorflow
-
-sudo pip3 install --upgrade tensorflow-gpu
-```
-
-### Hello world ile TensorFlow'a bir giriş yapalım.
-
-~~~ python
-import tensorflow as tf
-
-hello = tf.constant('Hello World')
-
-with tf.Session() as sess:
-  print(sess.run(hello)) 
-~~~
+<amp-gist data-gistid="df316cfe4abe75f7cb69c1f06f915d96"
+  layout="fixed-height"
+  height="350">
+</amp-gist>
 
 TensorFlow'da bazı işlemlerde kullanılmak üzeri sabit olarak **constant** kullanılıyor. Çıktının gösterilmesi aşamasında ise **Session** yapısı kullanılıyor. 
 
 
-### Şimdi de TensorFlow ile basit işlemler gerçekleştirelim.
+### Şimdi de TensorFlow ile basit işlemler gerçekleştirelim
 
-~~~ python
-import tensorflow as tf
-
-x1 = tf.constant(5)
-x2 = tf.constant(6)
-
-# Addition, Multiplication and Subtraction
-add = tf.add(x1, x2)
-sub = tf.sub(x1, x2)
-mul = tf.mul(x1, x2)
-
-# 1x2 Matrix
-matrix1 = tf.constant(
-	[
-		[3., 4.]
-	]
-)
-
-# 2x1 Matrix
-matrix2 = tf.constant(
-	[
-		[2.],
-		[2.]
-	]
-)
-
-# Matrix Multiplication
-product = tf.matmul(matrix1, matrix2)
-
-# Linearly spaced vector
-vector = tf.linspace(-3.0, 7.0, 6)
-
-with tf.Session() as sess:
-    print(sess.run(add))
-    print(sess.run(sub))
-    print(sess.run(mul))
-	
-    print(sess.run(product)) # 1x2 * 2x1 = 1x1 Matrix
-    
-    print(sess.run(vector)) 
-~~~
+<amp-gist data-gistid="e01bea88f6ed75ee08c6fdbbf8e083a1"
+  layout="fixed-height"
+  height="850">
+</amp-gist>
 
  İlk olarak **x1** ve **x2** adında iki sabit tanımlayıp ardından toplama, çıkarma ve çarpma işlemleri için TensorFlow'da tanımlı olan fonksiyonları (**add**, **sub**, **mul**) kullandık.
 

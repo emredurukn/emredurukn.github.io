@@ -11,12 +11,12 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 
 ### Projeler
 
-#### [tensorflow-examples](https://github.com/emredurukn/tensorflow-examples)
+- #### [tensorflow-examples](https://github.com/emredurukn/tensorflow-examples){:target="_blank"}
 [TensorFlow](https://www.tensorflow.org/)'u öğrenirken çalıştığım örnek kodlarımı topladığım repository.
 
 
-#### [shell-scripts](https://github.com/emredurukn/shell-scripts)
-Ubuntu 16.04 üzerinde [Ruby on Rails](http://rubyonrails.org/) ve [Django](https://www.djangoproject.com/) kurulumunu kolaylaştırmak ve günlük kullanım için kullandığım shell script'leri topladığım repository.
+- #### [shell-scripts](https://github.com/emredurukn/shell-scripts){:target="_blank"}
+Ubuntu 16.04 üzerinde [Ruby on Rails](http://rubyonrails.org/){:target="_blank"} ve [Django](https://www.djangoproject.com/){:target="_blank"} kurulumunu kolaylaştırmak ve günlük kullanım için kullandığım shell script'leri topladığım repository.
 
 
 ### İletişim
