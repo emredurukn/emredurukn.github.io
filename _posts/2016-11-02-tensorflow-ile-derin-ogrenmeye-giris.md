@@ -92,9 +92,9 @@ Gerekli kurulumları bitirdikten sonra son olarak TensorFlow'un GPU versiyonunu 
 
 ### Hello world ile TensorFlow'a bir giriş yapalım
 
-<amp-gist data-gistid="df316cfe4abe75f7cb69c1f06f915d96"
+<amp-gist data-gistid="e01bea88f6ed75ee08c6fdbbf8e083a1"
   layout="fixed-height"
-  height="350">
+  height="850">
 </amp-gist>
 
 TensorFlow'da bazı işlemlerde kullanılmak üzeri sabit olarak **constant** kullanılıyor. Çıktının gösterilmesi aşamasında ise **Session** yapısı kullanılıyor. 
@@ -102,9 +102,9 @@ TensorFlow'da bazı işlemlerde kullanılmak üzeri sabit olarak **constant** ku
 
 ### Şimdi de TensorFlow ile basit işlemler gerçekleştirelim
 
-<amp-gist data-gistid="e01bea88f6ed75ee08c6fdbbf8e083a1"
+<amp-gist data-gistid="df316cfe4abe75f7cb69c1f06f915d96"
   layout="fixed-height"
-  height="850">
+  height="350">
 </amp-gist>
 
  İlk olarak **x1** ve **x2** adında iki sabit tanımlayıp ardından toplama, çıkarma ve çarpma işlemleri için TensorFlow'da tanımlı olan fonksiyonları (**add**, **sub**, **mul**) kullandık.
