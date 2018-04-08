@@ -18,6 +18,8 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 - #### [shell-scripts](https://github.com/emredurukn/shell-scripts){:target="_blank"}
 Ubuntu 16.04 üzerinde [Ruby on Rails](http://rubyonrails.org/){:target="_blank"} ve [Django](https://www.djangoproject.com/){:target="_blank"} kurulumunu kolaylaştırmak ve günlük kullanım için kullandığım shell script'leri topladığım repository.
 
+- #### [development-notes](https://github.com/emredurukn/development-notes){:target="_blank"}
+Kullandığım yazılım geliştirme araçlarıyla ilgili tutduğum notları topladığım repository.
 
 ### İletişim
 
