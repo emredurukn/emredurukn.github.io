@@ -35,6 +35,3 @@ Yin yang misali bilişim sektörününde iyi yanlarının yanı sıra kötü yan
 Günümüzdeki en büyük sorun kuşkusuz yoğun iş temposu. Bu tür sorunların bazı işletmelerin verimliliği maksimuma çıkarma hırslarından kaynaklandığını düşünüyorum. Bilişim sektörü çok kırılgan ve hızla gelişen bir piyasa olduğu için firmaların ve çalışanlarının ciddi sorumlulukları oluyor. Piyasanın gerisinde kalması ile büyük umutlarla gelişen bir şirketin iflasını açıklaması sıklıkla karşılaşılan bir durum.
 
 Tüm bunlara rağmen yeni dünya düzeni Bilişim Sektörü sayesinde şekilleniyor ve bunun bir parçası olmak heyecan verici.
-
-Embed Test
-<div data-embed-type="p1" id="publins" style="position:relative; overflow:hidden;width:960px;height:640px"><div id="publins-iframe" style="position:absolute;top:0px;left:0px;overflow:hidden;width:960px;height:640px"><iframe allowfullscreen="" allowtransparency="" frameborder="0" height="100%" id="iframe-broch" scrolling="no" src="https://staging.publins.com/istanbul/widgets/brochure/177" style="display:block;box-sizing:border-box" width="100%"></iframe></div></div>
