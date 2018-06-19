@@ -2,10 +2,11 @@
 layout: post
 title: "Türkiye'deki şehirleri tanıyan bir Named Entity Recognition geliştirelim"
 published: true
-date: 2018-06-17
+date: 2018-06-19
 tags : 
  - named entity recognition
  - stanford ner
+ - web scraping
 image: named-entity-recognition.png
 description: Stanford NER ile metinden Türkiye'deki şehirleri tanıyan bir Named Entity Recognition'ı geliştirme adımları
 ---
@@ -23,7 +24,7 @@ Named Entity Recognition, metinlerden bilgi çıkarımı anlamına gelmektedir. 
 
 Bu yazıda Stanford NER kullanarak Ruby'de verilen metinden Türkiye'deki şehirleri çıkarabilen bir Named Entity Recognition'ı nasıl geliştirdiğimi anlatmaya çalışacağım.
 
-Proje için gerekli kurulumlar;
+**Proje için gerekli kurulumlar**
 
 - Java 1.8 veya daha yüksek bir sürüm
 - Ruby
@@ -42,7 +43,7 @@ Yapacağımız proje genel olarak iki aşamadan oluşuyor. İlk aşama NER için
 NER için sınıflandırıcıyı oluşturabilmemiz için gerekli etiketlemelerin yapıldığı bir veri seti gerekiyor. Bu veri setinin belli bir şablonu var. Bu şablon boşluk ile ayrılmış her kelimenden sonra tab karakteri gelir sonra da entity'nin ismi gelir. Bir sonraki kelime için de aynı şekilde bir alt satıra yazılır ve bu şekilde devam eder. 
 
 <center>
-	<amp-img width="458" height="469" alt="NER Corpus" src="/assets/images/ner-corpus.png"></amp-img>
+	<amp-img width="458" height="469" alt="Stanford NER Corpus" src="/assets/images/ner-corpus.jpg"></amp-img>
 </center>
 
 Yukarıdaki görselde bu şablonu nasıl olduğunu görebilirsiniz. Veri setini bu şablona uygun olarak manuel olarak da hazırlayabilirsiniz fakat biz internetteki verilerden faydalanarak veri setini oluşturacağız. Bu aşamada Web Scraping olarak adlandırılan en basit tabirle Web üzerindeki verirlerin işlenmesi konusuna giriyoruz.
