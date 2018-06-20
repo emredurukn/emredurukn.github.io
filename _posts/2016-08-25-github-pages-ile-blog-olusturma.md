@@ -42,27 +42,12 @@ Ben bu seferlik [şu adreste](https://github.com/kronik3r/daktilo){:target="_bla
 İndirdiğimiz zip dosyasını herhangi bir dizine çıkartalım.
 
 
-Jekyll, Ruby ile yazıldığı için ilk olarak [bu yazımda](https://emredurukn.github.io/2016/08/19/ubuntu-uzerinde-rails-kurulumu.html){:target="_blank"} açıkladığım şekilde Ruby kurulumunu gerçekleştirelim ve sonrasında Jekyll'i kuralım. 
+Jekyll, Ruby ile yazıldığı için ilk olarak [bu yazımda](https://emredurukn.github.io/2016/08/19/ubuntu-uzerinde-rails-kurulumu.html){:target="_blank"} açıkladığım şekilde Ruby kurulumunu gerçekleştirelim ve sonrasında Jekyll'i kuralım. Daha sonra Jekyll'nin yanında sitemizde kullandığımız gem'leri kurmak için bundler adlı gem'i kuralım. Son olarak zip dosyasını çıkartığımız klasöre geçip web sitemizin gem'lerini kuralım ve nasıl gözüktüğünü gözlemleyelim.
 
-```bash
-$ sudo gem install jekyll
-```
-
-Jekyll'nin yanında sitemizde kullandığımız gem'leri kurmak için bundler adlı gem'i kuralım. 
-
-```bash
-$ sudo gem install bundler
-```
-
-Daha sonra zip dosyasını çıkartığımız klasöre geçip web sitemizin gem'lerini kuralım ve nasıl gözüktüğünü gözlemleyelim.
-
-```bash
-$ cd daktilo-master
-
-$ bundle install
-
-$ bundle exec jekyll serve
-```
+<amp-gist data-gistid="ac9ca82c5b75087361d002129a855c7c"
+  layout="fixed-height"
+  height="450">
+</amp-gist>
 
 Artık web tarayıcımızı açıp **localhost:4000** adresinden sitemizin nasıl gözüktüğünü gözlemleyebiliriz. 
 
