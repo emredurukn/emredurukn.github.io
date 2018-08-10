@@ -11,7 +11,7 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 
 ### Projeler
 
-- #### [corenlp-ner](https://github.com/emredurukn/corenlp-ner){:target="_blank"}
+- #### [city-ner](https://github.com/emredurukn/city-ner){:target="_blank"}
 [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.html) ile metin içerisinden Türkiye'deki şehirleri çıkarabilen bir NER (Named Entity Recognizer) geliştirdim.
 
 - #### [tensorflow-examples](https://github.com/emredurukn/tensorflow-examples){:target="_blank"}

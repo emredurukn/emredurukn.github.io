@@ -76,4 +76,4 @@ Oluşturduğumuz sınıflandırıcıyı test etmek için bir text dosyası oluş
   height="450">
 </amp-gist>
 
-Bu işlemin ardından verdiğimiz input.txt'den output.txt dosyasını oluşturmuş olduk. Çıktı dosyasını incelersek Konya'yı başarılı bir şekilde bulduğunu görebilirsiniz. Veri setinizdeki örnekleri çoğaltarak ve farklı entity'ler ekleyerek daha kapsamlı Named Entity Recognition geliştirebilirsiniz. Eğer projenin tamamını incelemek isterseniz [şuradan](https://github.com/emredurukn/corenlp-ner) kodlara ulaşabilirsiniz.
+Bu işlemin ardından verdiğimiz input.txt'den output.txt dosyasını oluşturmuş olduk. Çıktı dosyasını incelersek Konya'yı başarılı bir şekilde bulduğunu görebilirsiniz. Veri setinizdeki örnekleri çoğaltarak ve farklı entity'ler ekleyerek daha kapsamlı Named Entity Recognition geliştirebilirsiniz. Eğer projenin tamamını incelemek isterseniz [şuradan](https://github.com/emredurukn/city-ner) kodlara ulaşabilirsiniz.
