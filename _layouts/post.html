@@ -9,10 +9,10 @@ layout: default
 
     <section class="post-content">
       <a name="topofpage"></a>
-        {{content}}
+      {{content}}
       <br>
-      
-      <center>
+
+      <center class="social-share-section">
         <amp-social-share type="twitter" width="60" height="44"></amp-social-share>
         <amp-social-share type="gplus" width="60" height="44"></amp-social-share>
         <amp-social-share type="linkedin" width="60" height="44"></amp-social-share>
@@ -21,16 +21,16 @@ layout: default
       </center>
 
       {% if page.comments != false %}
-        <div class="post--comments">
-          <!--
+      <div class="post--comments">
+        <!--
             <amp-iframe width=600 height=140
               layout="responsive"
               sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
               resizable
               src="https://emredurukn.github.io/disqus-amp.html?url={{ page.url | prepend: site.baseurl | prepend: site.url | cgi_escape }}&disqus_name=https%3A%2F%2F{{ site.disqus_name }}.disqus.com%2Fembed.js">
             </amp-iframe>
-          -->    
-        </div>
+          -->
+      </div>
       {% endif %}
 
     </section>
@@ -47,18 +47,19 @@ layout: default
           <p>
             <span>
               {% if site.github_username %}
-                {% include icon-github.html username=site.github_username %}
+              {% include icon-github.html username=site.github_username %}
               {% endif %}
             </span>
             <p>
-            <span>
-              {% if site.twitter_username %}
+              <span>
+                {% if site.twitter_username %}
                 {% include icon-twitter.html username=site.twitter_username %}
-              {% endif %}
-            </span>
-          </p>
-          <hr>
-          <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
+                {% endif %}
+              </span>
+            </p>
+            <hr>
+            <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date |
+                date_to_string }}</time></p>
         </section>
       </div>
       {{_post}}
@@ -66,11 +67,13 @@ layout: default
         <h5 class="index-headline featured"><span>Supported by</span></h5>
         <footer class="site-footer">
           <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
-          <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+          <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i>
+              You should subscribe to my feed.</span></a>
           <p>
-          <div class="inner">
-            <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{site.name}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
-          </div>
+            <div class="inner">
+              <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{site.name}}</a>
+                &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
+            </div>
         </footer>
       </div>
     </div>
