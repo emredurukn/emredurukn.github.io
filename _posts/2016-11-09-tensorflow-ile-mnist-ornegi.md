@@ -9,6 +9,7 @@ tags:
   - mnist
 image: tensorflow.jpg
 description: TensorFlow ile Mnist örnek uygulaması
+amp-gist: true
 ---
 
 

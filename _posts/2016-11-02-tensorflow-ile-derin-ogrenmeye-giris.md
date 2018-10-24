@@ -8,6 +8,7 @@ tags:
  - deep learning
 image: tensorflow.jpg
 description: TensorFlow kurulum adımları ve kısa bir giriş
+amp-gist: true
 ---
 
 

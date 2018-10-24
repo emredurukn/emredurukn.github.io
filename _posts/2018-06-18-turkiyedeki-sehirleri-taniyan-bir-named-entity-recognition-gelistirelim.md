@@ -9,6 +9,7 @@ tags :
  - web scraping
 image: named-entity-recognition.png
 description: Stanford NER ile metinden Türkiye'deki şehirleri tanıyan bir Named Entity Recognition'ı geliştirme adımları
+amp-gist: true
 ---
 
 

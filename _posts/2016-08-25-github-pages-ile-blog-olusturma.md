@@ -8,6 +8,7 @@ tags:
  - jekyll
 image: github.pages.jpg
 description: GitHub Pages ile Jekyll kullanarak adım adım blog kurulumu
+amp-gist: true
 ---
 
 

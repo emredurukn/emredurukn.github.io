@@ -8,6 +8,7 @@ tags:
   - google photos
 image: google-privacy.jpg
 description: Google uygulamalarındaki kişisel gizlilik ihlalleri
+amp-gist: false
 ---
 
 Bu yazımda Google'ın kişisel gizlilik ihlallerine değineceğim. 

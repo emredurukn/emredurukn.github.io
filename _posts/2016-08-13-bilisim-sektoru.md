@@ -5,6 +5,7 @@ published: true
 date: 2016-08-13
 image: bilisim-sektoru.jpeg
 description: Geleceğimizi şekillendiren yeni bir iş tanımı
+amp-gist: false
 ---
 
 Söze ilk olarak bilişim sektörünün 90'larda internetin yaygınlaşmasıyla birlikte yükselişe geçtiğini belirterek başlasam iyi olur. Aynı zamanda sınırları zorlayabileceğiniz nadir alanlardan biri olma özelliği de taşıyor. Kısacası yapabileceklerinizin sınırı yok.

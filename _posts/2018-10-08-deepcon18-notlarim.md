@@ -8,6 +8,7 @@ tags:
   - deep learning
 image: deepcon18.jpg
 description: DeepCon18 boyunca tuttuğum notlar
+amp-gist: false
 ---
 
 DeepCon18 (Yapay Zeka Konferansı) boyunca tuttuğum notlar ve önemli olarak gördüğüm açıklamalar.
@@ -56,4 +57,4 @@ DeepCon18 (Yapay Zeka Konferansı) boyunca tuttuğum notlar ve önemli olarak g�
 
 - İşin felsefesine gereken önemi vermeliyiz çünkü bu felsefe bizim ufkumuzu açıyor ve yaratıcılık bizim için çok önemli bir faktör.
 
-Eğer yapay zeka ile günlük bir sorunu çözebilirsek işte o zaman hayatımızda bir fark yaratabiliriz. Bu etkinliği düzenleyen başta [Deep Learning Türkiye](http://deeplearningturkiye.com/){:target="\_blank"}'ye ve etkinlikte emeği geçen herkese buradan teşekkürlerimi iletiyorum.
+Eğer yapay zeka ile günlük bir sorunu çözebilirsek işte o zaman hayatımızda bir fark yaratabiliriz. Bu etkinliği düzenleyen başta [Deep Learning Türkiye](http://deeplearningturkiye.com/){:target="_blank"}'ye ve etkinlikte emeği geçen herkese buradan teşekkürlerimi iletiyorum.
