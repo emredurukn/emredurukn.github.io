@@ -10,15 +10,6 @@ layout: default
     <section class="post-content">
       <a name="topofpage"></a>
       {{content}}
-      <br>
-
-      <center class="social-share-section">
-        <amp-social-share type="twitter" width="60" height="44"></amp-social-share>
-        <amp-social-share type="gplus" width="60" height="44"></amp-social-share>
-        <amp-social-share type="linkedin" width="60" height="44"></amp-social-share>
-        <amp-social-share type="pinterest" width="60" height="44"></amp-social-share>
-        <amp-social-share type="email" width="60" height="44"></amp-social-share>
-      </center>
 
       {% if page.comments != false %}
       <div class="post--comments">
@@ -67,8 +58,6 @@ layout: default
         <h5 class="index-headline featured"><span>Supported by</span></h5>
         <footer class="site-footer">
           <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
-          <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i>
-              You should subscribe to my feed.</span></a>
           <p>
             <div class="inner">
               <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{site.name}}</a>
