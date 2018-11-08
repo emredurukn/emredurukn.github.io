@@ -22,6 +22,7 @@ amp-img {
 
 amp-gist {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .cf {
@@ -130,7 +131,7 @@ body {
 .site-header {
   position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: 850px;
   margin: 16px auto 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
@@ -159,7 +160,7 @@ body {
 
 .blog-header {
   width: 100%;
-  max-width: 700px;
+  max-width: 850px;
   margin: 0 auto;
   position: relative;
   padding: 0;
@@ -187,7 +188,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 700px;
+  max-width: 850px;
   margin: 25px auto 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
@@ -240,7 +241,7 @@ body {
 }
 
 .post-template .content {
-  max-width: 700px;
+  max-width: 850px;
 }
 
 .index-headline {
@@ -272,7 +273,7 @@ body {
   margin: 0 auto;
   padding: $rs * 3 0;
   width: 100%;
-  max-width: 700px;
+  max-width: 850px;
   font-size: $rs / 4 * 3;
   text-align: center;
   color: #999999;
