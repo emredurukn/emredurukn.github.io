@@ -6,7 +6,7 @@ permalink: /about/
 
 <amp-img width="626" height="392" layout="responsive" src="/assets/images/anonymous-censored-mask.jpg"></amp-img>
 
-Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği](http://www.ktu.edu.tr/bilgisayar){:target="\_blank"} bölümünden mezun oldum. Şuan [Publins](https://www.linkedin.com/company/15146096/){:target="\_blank"} şirketinde Yazılım Geliştirici olarak çalışmaktayım. CV'me [buradan](http://emredurukn.github.io/CV.pdf){:target="\_blank"} ulaşabilirsiniz.
+Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği](http://www.ktu.edu.tr/bilgisayar){:target="\_blank"} bölümünden mezun oldum. CV'me [buradan](http://emredurukn.github.io/CV.pdf){:target="\_blank"} ulaşabilirsiniz.
 
 ### Projeler
 
