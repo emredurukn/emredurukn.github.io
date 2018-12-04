@@ -11,16 +11,16 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 ### Projeler
 
 - #### [city-ner](https://github.com/emredurukn/city-ner){:target="\_blank"}
-
   [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.html) ile metin içerisinden Türkiye'deki şehirleri çıkarabilen bir NER (Named Entity Recognizer) geliştirdim.
 
-- #### [tensorflow-examples](https://github.com/emredurukn/tensorflow-examples){:target="\_blank"}
+- #### [to-do-list](https://github.com/emredurukn/to-do-list){:target="\_blank"}
+   Swift ile yazdığım To-Do List ios app
 
-  [TensorFlow](https://www.tensorflow.org/)'u öğrenirken çalıştığım örnek kodlarımı topladığım repository.
+- #### [weather-app](https://github.com/emredurukn/weather-app){:target="\_blank"}
+  Swift ile yazdığım Weather ios app
 
-- #### [shell-scripts](https://github.com/emredurukn/shell-scripts){:target="\_blank"}
-
-  Ubuntu 16.04 üzerinde [Ruby on Rails](http://rubyonrails.org/){:target="\_blank"} ve [Django](https://www.djangoproject.com/){:target="\_blank"} kurulumunu kolaylaştırmak ve günlük kullanım için kullandığım shell script'leri topladığım repository.
+- #### [web-scraping-examples](https://github.com/emredurukn/web-scraping-examples){:target="\_blank"}
+  Ruby ile yazdığım Web Scraping kodlarını topladığım repository.
 
 - #### [development-notes](https://github.com/emredurukn/development-notes){:target="\_blank"}
   Kullandığım yazılım geliştirme araçlarıyla ilgili tutduğum notları topladığım repository.
