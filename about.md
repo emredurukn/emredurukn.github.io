@@ -11,13 +11,16 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 ### Projeler
 
 - #### [city-ner](https://github.com/emredurukn/city-ner){:target="\_blank"}
-  [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.html) ile metin içerisinden Türkiye'deki şehirleri çıkarabilen bir NER (Named Entity Recognizer) geliştirdim.
+  [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.html){:target="\_blank"} ile metin içerisinden Türkiye'deki şehirleri çıkarabilen bir NER (Named Entity Recognizer) geliştirdim.
 
-- #### [to-do-list](https://github.com/emredurukn/to-do-list){:target="\_blank"}
-   Swift ile yazdığım To-Do List ios app
+- #### [uber-clone](https://github.com/emredurukn/uber-clone){:target="\_blank"}
+  [Firebase](https://firebase.google.com/){:target="\_blank"} tabanlı Uber clone iOS uygulaması
 
 - #### [weather-app](https://github.com/emredurukn/weather-app){:target="\_blank"}
-  Swift ile yazdığım Weather ios app
+  [OpenWeatherMap API](https://openweathermap.org/api){:target="\_blank"} tabanlı Weather iOS uygulaması
+
+- #### [to-do-list](https://github.com/emredurukn/to-do-list){:target="\_blank"}
+   Swift ile yazdığım To-Do list iOS uygulaması
 
 - #### [web-scraping-examples](https://github.com/emredurukn/web-scraping-examples){:target="\_blank"}
   Ruby ile yazdığım Web Scraping kodlarını topladığım repository.
