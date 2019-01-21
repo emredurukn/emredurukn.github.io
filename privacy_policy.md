@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: privacy-policy
 title: Betcalsa - Privacy Policy
-permalink: /betcalsa/privacy-policy
+permalink: /betcalsa/privacy-policy/
 ---
 
 ## Privacy Policy
