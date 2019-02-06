@@ -10,6 +10,9 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 
 ### Projeler
 
+- #### [betcalsa](https://github.com/emredurukn/betcalsa){:target="\_blank"}
+   Swift ile yazdığım döküman tarama iOS uygulaması
+
 - #### [city-ner](https://github.com/emredurukn/city-ner){:target="\_blank"}
   [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.html){:target="\_blank"} ile metin içerisinden Türkiye'deki şehirleri çıkarabilen bir NER (Named Entity Recognizer) geliştirdim.
 
@@ -18,9 +21,6 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 
 - #### [weather-app](https://github.com/emredurukn/weather-app){:target="\_blank"}
   [OpenWeatherMap API](https://openweathermap.org/api){:target="\_blank"} tabanlı Weather iOS uygulaması
-
-- #### [to-do-list](https://github.com/emredurukn/to-do-list){:target="\_blank"}
-   Swift ile yazdığım To-Do list iOS uygulaması
 
 - #### [web-scraping-examples](https://github.com/emredurukn/web-scraping-examples){:target="\_blank"}
   Ruby ile yazdığım Web Scraping kodlarını topladığım repository.
