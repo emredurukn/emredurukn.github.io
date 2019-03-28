@@ -10,6 +10,9 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
 
 ### Projeler
 
+- #### [Attack In Space](https://play.google.com/store/apps/details?id=com.emredurukn.attackinspace){:target="\_blank"}
+   Unity ile geliştirdiğim 2D Space Shooter oyunu
+
 - #### [betcalsa](https://github.com/emredurukn/betcalsa){:target="\_blank"}
    Swift ile yazdığım döküman tarama iOS uygulaması
 
@@ -23,7 +26,7 @@ Merhabalar ben Emre. Denizli'de yaşıyorum. [Karadeniz Teknik Üniversitesi Bil
   [OpenWeatherMap API](https://openweathermap.org/api){:target="\_blank"} tabanlı Weather iOS uygulaması
 
 - #### [web-scraping-examples](https://github.com/emredurukn/web-scraping-examples){:target="\_blank"}
-  Ruby ile yazdığım Web Scraping kodlarını topladığım repository.
+  Yazdığım Web Scraping kodlarını topladığım repository.
 
 - #### [development-notes](https://github.com/emredurukn/development-notes){:target="\_blank"}
   Kullandığım yazılım geliştirme araçlarıyla ilgili tutduğum notları topladığım repository.
