@@ -6,7 +6,7 @@ permalink: /about/
 
 <amp-img width="626" height="392" layout="responsive" src="/assets/images/anonymous-censored-mask.jpg"></amp-img>
 
-Merhabalar ben Emre. İstanbul'da yaşıyorum. [Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği](http://www.ktu.edu.tr/bilgisayar){:target="\_blank"} bölümünden mezun oldum. Şuan [Alta Bering](https://www.linkedin.com/company/altabering/){:target="\_blank"} şirketinde Data Engineer olarak çalışmaktayım. CV'me [buradan](http://emredurukn.github.io/EmreDurukan-CV.pdf){:target="\_blank"} ulaşabilirsiniz.
+Merhabalar ben Emre. İstanbul'da yaşıyorum. [Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği](http://www.ktu.edu.tr/bilgisayar){:target="\_blank"} bölümünden mezun oldum. Şuan [Alta Data](https://www.linkedin.com/company/altadata/){:target="\_blank"} şirketinde Data Developer olarak çalışmaktayım. CV'me [buradan](http://emredurukn.github.io/EmreDurukan_CV.pdf){:target="\_blank"} ulaşabilirsiniz.
 
 ### Projeler
 
